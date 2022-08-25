@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k-tresna</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- link untuk font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Hind:wght@700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+</head>
+
+<body>
+
+<!-- header start -->
+<header>
+
+    <h1 id="logo">k-tresna</h1>
+
+    <!-- navigasi start -->
+    <nav>
+        <ul>
+            <li><a href="#jumbotron">Home</a></li>
+            <li><a href="#tentang-kami">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <button id="nav-button" type="button">
+            <span id="simbol" class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+
+        <div class="ballon-nav">
+                <a href="#jumbotron">Home</a>
+                <a href="#tentang-kami">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#">Contact</a>
+        </div>
+    </nav>
+    <!-- navigasi end -->
+
+</header>
+<!-- header end -->
+
+<!-- main start -->
+<main>
+    
+    <!-- biodata start -->
+    <aside id="profile" class="profile">
+        <div class="data-profile" id="data-profile">
+            <img src="assets/img/andika.png" alt="">
+            <table>
+                <tr>
+                    <th>Nama : </th>
+                    <td>Muhamad Andika Rafli</td>
+                </tr>
+                <tr>
+                    <th>Domisili : </th>
+                    <td>Bandung</td>
+                </tr>
+                <tr>
+                    <th>hobi : </th>
+                    <td>menonton anime</td>
+                </tr>
+            </table>
+            <span class="material-symbols-outlined" style="display: block; position: absolute; right: 10%; top: 0; color: red; cursor: pointer;" id="tutup-profile">
+                close
+            </span>
+        </div>
+        <span class="material-symbols-outlined" style="display: block; position: fixed; right: 10px; bottom: 10px; background: white; border-radius: 50%; filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); padding: 5px 5px; cursor: pointer;" id="buka-profile">
+            person
+            </span>
+    </aside>
+    <!-- biodata end -->
+
+    <!-- jumbotron start -->
+    <section id="conteiner-jumbo">
+        <section id="jumbotron">
+                <div id="imgjumbotron">
+                    <img src="assets/img/pasakan.png" alt="">
+                </div>
+                <article id="keterangan">
+                    <h2>warung makan k-tresna</h2>
+                    <p>warung yang bertema masakan khas indonesia seperti pindang, ayam kecap, urab, dan lain lain. walaupun harganya yang tergolong murah, rasa masakan dari warung ini terjamin enaknya. lanjut scroll halaman ini untuk mengetahui info lebih dalam.</p>
+                </article>
+        </section>
+        
+        <section id="jumbotron2">
+            <div class="custom-shape-divider-bottom-1655719888">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+    </section>
+    <!-- jumbotron end -->
+
+
+    <!-- about start -->
+    <section id="tentang-kami">
+
+        <!-- header-about start -->
+        <div class="tentang-head">
+            <h2>tentang kami</h2>
+            <hr>
+            <p>note : klik angka lain untuk mengganti informasi</p>
+            <div id="slide-button">
+                <span class="material-symbols-outlined slide-button-active token-1" id="1">looks_one</span>
+                <span class="material-symbols-outlined token-2" id="2">looks_two</span>
+                <span class="material-symbols-outlined token-3" id="3">looks_3</span>
+                <span class="material-symbols-outlined token-4" id="4">looks_4</span>
+                <span class="material-symbols-outlined token-5" id="5">looks_5</span>
+            </div>
+        </div>
+        <!-- header-about end -->
+
+        <!-- body-about start -->
+        <div class="tentang-main">
+            <div class="card box-active" id="token-1">
+                <div class="card-img">
+                    <img src="assets/img/idea.png" alt="">
+                </div>
+                <article class="card-p">
+                    <p>Usaha ini didirikan kurang lebih pada tahun 2013 di Cibiru. Namun karena ada satu dan lain hal usaha ini dipindahkan ke ujung berung </p>
+                </article>
+            </div>
+
+            <div class="card" id="token-2">
+                <div class="card-img">
+                    <img src="assets/img/chatting.png" alt="">
+                </div>
+                <article class="card-p">
+                    <p>Jika anda berminat menghubungi kamu. anda bisa meng <a href="#">klik disini</a> untuk menuju ke whatsapp kami</p>
+                </article>
+            </div>
+
+            <div class="card" id="token-3">
+                <div class="card-img">
+                    <img src="assets/img/bullhorn.png" alt="">
+                </div>
+                <article class="card-p">
+                    <p>Kami juga menerima pesanan ketring. untuk harganya anda bisa menanyakan langsung ke nomor whatsapp kami</p>
+                </article>
+            </div>
+
+            <div class="card" id="token-4">
+                <div class="card-img">
+                    <img src="assets/img/checklist.png" alt="">
+                </div>
+                <article class="card-p">
+                    <p>Selain masakan seperti (ayam,pindang,urab) kami juga menerima pesanan seperti kue, brownis, cireng, dan ulen</p>
+                </article>
+            </div>
+
+            <div class="card" id="token-5">
+                <div class="card-img">
+                    <img src="assets/img/clock.png" alt="">
+                </div>
+                <article class="card-p">
+                    <p>Warung kamu buka pada jam 7 hingga jam 6 malam. dan kami akan mengambil libur jika ada keperluan mendadak seperti pesanan ketring yg menumpuk </p>
+                </article>
+            </div>
+        </div>
+        <!-- body-about end -->
+    </section>
+    <!-- about end -->
+
+
+    <div>
+        <div class="custom-shape-divider-bottom-1655793163">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- galery start -->
+    <section id="gallery" >
+        <div id="gallery-head">
+            <h2>gallery</h2>
+            <hr>
+            <br><br><br>
+        </div>
+        <div id="gallery-body">
+            <img src="assets/img/makanan1.jpeg" alt="">
+            <img src="assets/img/makanan2.jpeg" alt="">
+            <img src="assets/img/makanan3.jpeg" alt="">
+            <img src="assets/img/makanan4.jpeg" alt="">
+            <img src="assets/img/makanan5.jpeg" alt="">
+            <img src="assets/img/makanan6.jpeg" alt="">
+            <img src="assets/img/makanan8.jpeg" alt="">
+        </div>
+        <br>
+    </section>
+    <!-- gallery end -->
+</main>
+
+
+<!-- main end -->
+
+<!-- footer start -->
+<footer>
+    <svg id="visual" viewBox="0 0 960 540" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="960" height="540" fill="#E7FAFF"></rect><path d="M0 345L137 404L274 317L411 327L549 333L686 316L823 315L960 376L960 541L823 541L686 541L549 541L411 541L274 541L137 541L0 541Z" fill="#818a8c"></path><path d="M0 379L137 409L274 387L411 408L549 409L686 380L823 391L960 389L960 541L823 541L686 541L549 541L411 541L274 541L137 541L0 541Z" fill="#5d6668"></path><path d="M0 398L137 447L274 417L411 444L549 446L686 456L823 418L960 447L960 541L823 541L686 541L549 541L411 541L274 541L137 541L0 541Z" fill="#3c4446"></path><path d="M0 477L137 475L274 437L411 438L549 461L686 449L823 477L960 462L960 541L823 541L686 541L549 541L411 541L274 541L137 541L0 541Z" fill="#1e2527"></path><path d="M0 484L137 482L274 489L411 503L549 492L686 483L823 510L960 509L960 541L823 541L686 541L549 541L411 541L274 541L137 541L0 541Z" fill="#000000"></path></svg>
+    <br><br><br><br>
+    <p>seorang pelajar asal bandung &copy Muhamad Andika Rafli</p>
+    <br><br><br><br>
+</footer>
+<!-- footer end -->
+
+<script src="assets/js/index.js" ></script>
+</body>
+</html>
