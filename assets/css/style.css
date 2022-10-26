@@ -37,13 +37,13 @@
 
 
 p,a {
-    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Harmattan', sans-serif;
 }
 
 a {
     text-decoration: none;
     font-size: 10px;
-    color: white;
+    color: rgba(255, 255, 255, 0.575);
 }
 
 
@@ -52,8 +52,10 @@ p {
 }
 
 h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 40px !important;
+    color: white;
 }
 
 .bg-yellow {
@@ -85,6 +87,10 @@ header h1 {
 nav{
     margin-top: 20px;
     padding-right: 50px;
+}
+
+.nav-dekstop li a {
+    font-size: 15px;
 }
 
 header li {
@@ -184,6 +190,8 @@ nav button {
 }
 
 #jumbotron img {
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     border-radius: 20px;
 }
@@ -193,11 +201,11 @@ nav button {
     width: 50%;
     color: #18181b;
     place-self: center;
+    line-height: 25px;
 }
 
-#keterangan h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+#keterangan p {
+    margin-top: 15px;
 }
 
 #imgjumbotron {
@@ -214,6 +222,10 @@ nav button {
 #tentang-kami{
     margin-top: 100px;
     padding-bottom: 150px;
+}
+
+.tentang-head h2 {
+    color: black;
 }
 
 .tentang-head hr, #gallery hr {
@@ -293,6 +305,10 @@ nav button {
     border-radius: 10px;
     width: 90%;
     margin: 4px 15px;
+}
+
+#gallery-head h2{
+    color: black;
 }
 
 #gallery-body {
